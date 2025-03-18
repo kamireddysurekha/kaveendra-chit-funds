@@ -1,0 +1,2264 @@
+
+@media screen and (min-width: 1439px) and (max-width:2560px)
+{
+  body{
+    font-family: "Poppins", sans-serif;
+
+}
+.logo{
+    width: 35%;
+    height: 200px;
+    padding-top: 0%;
+}
+.nav-logo{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #385929;
+    position: relative;
+    height: 200px;
+    width: 100%;
+}
+.logo{
+    color: #fff;
+    margin-top: 0%;
+}
+
+nav ul{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    float: right;
+    margin-top: -7%;
+    padding-right: 5%;
+    font-size: xx-large;
+    padding-top: 3%;
+}
+nav a:hover{
+    color: maroon;
+    transition: 1s;
+    background-color: white;
+    border-radius: 2px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-icon{
+    display: none;
+   float: right;
+   margin-top: -3%;
+}
+
+.menu-icon i{
+    color: #fff;
+    font-size: 30px;
+    margin-top: -100%;
+
+}
+.info-class{
+background-color:navy;
+
+}
+/*-----------------------about sec--------------------------------*/
+/* .about-sec{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+} */
+.about-head h1{
+    font-size: 50px;
+    color: rgb(83, 83, 241);
+    margin-top: 80px;
+}
+.about-head p{
+    font-size: medium;
+    margin-top: 30px;
+}
+/* .about-pic img{
+    width: 800px;
+    height: 300px;
+padding-left: 90px;
+margin-top: 40px;
+} */
+ .about-pic img{
+    width: 100%;
+ }
+ .about-sec{
+    width: 100%;
+ }
+/*------------------*/
+.image-sec{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+}
+.img-pic img{
+    width: 1000px;
+    height: 950px;
+    margin-top: 50px;
+
+}
+.about-para h1{
+    font-size: 70px;
+    margin-top: 220px;
+    color: orange;
+    padding-left: 80px;
+}
+.about-para p{
+  font-size: xx-large;
+  margin-top: 30px;
+  padding-left: 80px;
+  padding-right: 69px;
+  margin-top: 132px;
+}
+/*---------------------our sec--------------------------*/
+.our-sec{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 80px;
+width: 100%;
+}
+.our-purpose h1{
+    padding-left: 30px;
+    font-size: 63px;
+    color: green;
+}
+.our-purpose img{
+  width: 20%;
+margin-left: 50px;
+}
+.our-purpose p{
+    padding-left: 30px;
+    font-size: xx-large;
+    padding-right: 30px;
+}
+/*----------------------about shree----------------------*/
+.about-part{
+    display: flex;
+   padding-left: 30px;
+   padding-right: 30px;
+   width: 100%;
+}
+.about-shree h1{
+    font-size: 65px;
+    text-align: center;
+    margin-top: 50px;
+    color: green;
+}
+.about-img img{
+    width: 900px;
+    height: 500px;
+   margin-top: 40px;
+}
+.about-matter p{
+    font-size: xx-large;
+    padding-left: 60px;
+    padding-right: 30px;
+    margin-top: 90px;
+}
+.about-shree{
+    width: 100%;
+}k
+/*-----------------chit rang------------------*/
+.chit-sec{
+  width: 100%;
+}
+.rang-chit p {
+    padding-left: 150px;
+    font-size: 25px;
+    color: rgb(31, 88, 14);
+    font-weight: 500;
+    margin-top: 50px;
+  }
+
+  .box-item {
+    font-size: 30px;
+    color: white;
+  }
+
+  .message-button {
+    background-color: rgb(14, 85, 14);
+    height: 230px;
+    width: 350px;
+    border-radius: 12px;
+  }
+
+  .box-sec {
+    display: flex;
+    gap: 2rem;
+    padding-left: 80px;
+    padding-right: 50px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+  }
+  .box-sec::-webkit-scrollbar {
+    display: none;
+  }
+
+  .box-sec {
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+  }
+
+
+    /*----------TESTMONIALS--------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&family=Montserrat:wght@500;600;700&display=swap');
+
+
+
+.col-md-9 h2{
+  font-size: 70px;
+  margin-top: 90px;
+  }
+  .col-md-9 p{
+    margin-top: -250px;
+    font-size: 35px;
+    padding-left: 0px;
+  }
+  
+  
+  .h-100{
+    width: 80%;
+  }
+  .testimonials{
+    background-color: #385929;
+    background-image: url(../images/pattern7.svg.png);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    margin-top: 90PX;
+    height: 1000px;
+    width: 100%;
+  }
+  .traingle-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+  }
+  .triangle-images .tsingle{
+    transition: .3s ease;
+    transform: scale(.5);
+  }
+  .triangle-images .tsingle.active{
+    transform: scale(1);
+    background-color: #019444;
+    border: 4px solid #FFF699;
+    padding: 4px;
+  }
+  .triangle-images .tsingle:first-child{
+    transform: scale(1);
+    top: calc(50% - 80px);
+    left: 600px;
+    width: 25%;
+  }
+  .triangle-images .tsingle:nth-child(2){
+    top: 15%;
+    left: 250px;
+    width: 35%;
+    margin-top: -100px;
+  }
+  .triangle-images .tsingle:nth-child(3){
+    top: 0%;
+    left: 4%;
+    width: 25%;
+    margin-top: -50px;
+  }
+  
+  .testi-single{
+    padding: 30rem 2rem 2rem;
+    background-image: url(../images/icons/quote1.svg),url(../images/icons/quote1.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0, 100% calc(100%-2rem);
+  }
+  .testi-prev{
+    width: 230px;
+   font-size: 40px;
+  }
+  .testi-next{
+    
+   font-size: 40px;
+  }
+/*-------------------footer-sec------------------------------*/
+
+footer{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  height: 560px;
+  background-color: #385929;
+   position: relative;
+   width: 100%;
+   padding: 5rem 1rem;
+   margin-top: 100PX;
+}
+.container-footer {
+width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.col{
+    min-width: 250px;
+    color:#f2f2f2f2;
+    font-family: poppins;
+    padding:0 2rem;
+    font-size: medium;
+}
+
+.col .links a{
+    display: block;
+    text-decoration: none;
+    color:#f2f2f2;
+    margin-bottom: 5px;
+    position: relative;
+    transition: 0.3s ease;
+}  
+.col .contact-details{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.col .contact-details i{
+    margin-right:15px;
+}
+
+.links h2{
+color: yellow;
+font-size: 35px;
+
+}
+.links a{
+  font-size: xx-large;
+  padding-left: 30px;
+}
+.links p{
+  font-size: 14px;
+}
+.container-footer img{
+width: 50%;
+height: 190px;
+}
+
+.footer-part h2{
+    background-color: #406b2d;
+padding-left: 40%;
+color: yellow;
+height: 130px;
+padding-top: 30px;
+font-size: 45px;
+}
+.footer-part{
+width: 100%;
+height: 0px;
+}
+.col p{
+  font-size: xx-large;
+  padding-right: 20px;
+}
+}
+
+@media screen and (min-width: 1023px) and (max-width:1440px)
+{
+body{
+    font-family: "Poppins", sans-serif;
+
+}
+.logo{
+    width: 34%;
+    height: 100px;
+    padding-top: 0%;
+}
+.nav-logo{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #385929;
+    position: relative;
+    height: 110px;
+    width: 100%;
+}
+.logo{
+    color: #fff;
+    margin-top: 0%;
+}
+nav ul{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    float: right;
+    margin-top: -4%;
+    padding-right: 5%;
+    font-size: 15px;
+    padding-top: 0%;
+}
+nav a:hover{
+    color: maroon;
+    transition: 1s;
+    background-color: white;
+    border-radius: 2px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-icon{
+    display: none;
+   float: right;
+   margin-top: -3%;
+}
+
+.menu-icon i{
+    color: #fff;
+    font-size: 30px;
+    margin-top: -100%;
+
+}
+.info-class{
+background-color:navy;
+
+}
+/*-----------------------about sec--------------------------------*/
+/* .about-sec{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+} */
+.about-head h1{
+    font-size: 50px;
+    color: rgb(83, 83, 241);
+    margin-top: 80px;
+}
+.about-head p{
+    font-size: medium;
+    margin-top: 30px;
+}
+/* .about-pic img{
+    width: 800px;
+    height: 300px;
+padding-left: 90px;
+margin-top: 40px;
+} */
+ .about-pic img{
+    width: 100%;
+ }
+ .about-sec{
+    width: 100%;
+ }
+/*------------------*/
+.image-sec{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+}
+.img-pic img{
+    width: 600px;
+    height: 350px;
+    margin-top: 50px;
+
+}
+.about-para h1{
+    font-size: 40px;
+    margin-top: 120px;
+    color: orange;
+    padding-left: 80px;
+}
+.about-para p{
+    font-size: medium;
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+/*---------------------our sec--------------------------*/
+.our-sec{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 80px;
+width: 100%;
+}
+.our-purpose h1{
+    padding-left: 30px;
+    font-size: 23px;
+    color: green;
+}
+.our-purpose img{
+  width: 50px;
+margin-left: 50px;
+}
+.our-purpose p{
+    padding-left: 30px;
+    font-size: 13px;
+    padding-right: 30px;
+}
+
+/*----------------------about shree----------------------*/
+.about-part{
+    display: flex;
+   padding-left: 30px;
+   padding-right: 30px;
+   width: 100%;
+}
+.about-shree h1{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+    color: green;
+}
+.about-img img{
+    width: 600px;
+    height: 300px;
+   margin-top: 40px;
+}
+.about-matter p{
+    font-size: 15px;
+    padding-left: 60px;
+    padding-right: 30px;
+    margin-top: 60px;
+}
+.about-shree{
+    width: 100%;
+}
+/*-----------------chit rang------------------*/
+.chit-sec{
+    width: 100%;
+  }
+  .rang-chit p {
+      padding-left: 80px;
+      font-size: 20px;
+      color: rgb(31, 88, 14);
+      font-weight: 500;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  
+    .box-item {
+      font-size: 20px;
+      color: white;
+    }
+  
+    .message-button {
+      background-color: rgb(14, 85, 14);
+      height: 100px;
+      width: 200px;
+      border-radius: 12px;
+    }
+  
+    .box-sec {
+      display: flex;
+      gap: 2rem;
+      padding-left: 80px;
+      padding-right: 50px;
+      overflow-x: scroll;
+      white-space: nowrap;
+      scroll-behavior: smooth;
+    }
+    .box-sec::-webkit-scrollbar {
+      display: none;
+    }
+  
+    .box-sec {
+      -ms-overflow-style: none;
+      scrollbar-width: none; 
+    }
+    .message-button{
+        font-size: medium;
+    }
+
+
+    /*----------TESTMONIALS--------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&family=Montserrat:wght@500;600;700&display=swap');
+
+
+
+.col-md-9 h2{
+    font-size: 30px;
+    margin-top: 90px;
+    }
+    .col-md-9 p{
+      margin-top: -250px;
+      font-size: medium;
+      padding-left: 50px;
+    }
+    .h-100{
+      width: 80%;
+    }
+    .testimonials{
+      background-color: #385929;
+      background-image: url(../images/pattern7.svg.png);
+      background-repeat: no-repeat;
+      background-position: 100% 50%;
+      margin-top: 90PX;
+      height: 580px;
+      width: 100%;
+    }
+  .traingle-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+  }
+  .triangle-images .tsingle{
+    transition: .3s ease;
+    transform: scale(.5);
+  }
+  .triangle-images .tsingle.active{
+    transform: scale(1);
+    background-color: #019444;
+    border: 4px solid #FFF699;
+    padding: 4px;
+  }
+  .triangle-images .tsingle:first-child{
+    transform: scale(1);
+    top: calc(50% - 80px);
+    left: 300px;
+  }
+  .triangle-images .tsingle:nth-child(2){
+    top: 15%;
+    left: 150px;
+  }
+  .triangle-images .tsingle:nth-child(3){
+    top: 0%;
+    left: 4%;
+  }
+  
+  .testi-single{
+    padding: 30rem 2rem 2rem;
+    background-image: url(../images/icons/quote1.svg),url(../images/icons/quote1.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0, 100% calc(100%-2rem);
+  }
+  .testi-next {
+    font-size: 20px;
+}
+.testi-prev {
+  width: 130px;
+  font-size: 20px;
+}
+/*-------------------footer-sec------------------------------*/
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    height: 360px;
+    background-color: #385929;
+     position: relative;
+     width: 100%;
+     padding: 5rem 1rem;
+     margin-top: 100PX;
+}
+.container-footer {
+width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  .col{
+      min-width: 250px;
+      color:#f2f2f2f2;
+      font-family: poppins;
+      padding:0 2rem;
+      font-size: medium;
+  }
+  
+  .col .links a{
+      display: block;
+      text-decoration: none;
+      color:#f2f2f2;
+      margin-bottom: 5px;
+      position: relative;
+      transition: 0.3s ease;
+  }  
+  .col .contact-details{
+      display: inline-flex;
+      justify-content: space-between;
+  }
+  .col .contact-details i{
+      margin-right:15px;
+  }
+
+.links h2{
+  color: yellow;
+  font-size: medium;
+ 
+}
+.links a{
+    font-size: 14px;
+    padding-left: 30px;
+}
+.links p{
+    font-size: 14px;
+}
+.container-footer img{
+  width: 50%;
+  height: 90px;
+}
+
+.footer-part h2{
+    background-color: #406b2d;
+  padding-left: 35%;
+  color: yellow;
+  height: 80px;
+  padding-top: 25px;
+  font-size: 18px;
+}
+.footer-part{
+  width: 100%;
+  height: 0px;
+}
+.col p{
+    font-size: 14px;
+    padding-right: 20px;
+}
+}
+/*-------------------------laptap viw------------------------------*/
+
+@media screen and (min-width: 770px) and (max-width:1024px)
+{
+
+    body{
+        font-family: "Poppins", sans-serif;
+    
+    }
+    .logo{
+      width: 37%;
+      height: 95px;
+      padding-top: 1%;
+      padding-right: 11px;
+    }
+    .nav-logo{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    
+    nav{
+        padding: 10px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #385929;
+        position: relative;
+        height: 110px;
+        width: 100%;
+    }
+    .logo{
+        color: #fff;
+        margin-top: -1%;
+    }
+    
+    nav ul{
+        display: flex;
+        gap: 4rem;
+        align-items: center;
+        float: right;
+        margin-top: -4%;
+        padding-right: 5%;
+        font-size: 11px;
+        font-weight: bold;
+        padding-top: 0%;
+    }
+    nav a:hover{
+        color: maroon;
+        transition: 1s;
+        background-color: white;
+        border-radius: 2px;
+        padding: 5px 10px;
+        text-decoration: none;
+    }
+    nav ul li{
+        list-style-type: none;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .menu-icon{
+        display: none;
+       float: right;
+       margin-top: -3%;
+    }
+    
+    .menu-icon i{
+        color: #fff;
+        font-size: 30px;
+        margin-top: -100%;
+    
+    }
+    .info-class{
+    background-color:navy;
+    
+    }
+/*-----------------------about sec--------------------------------*/
+/* .about-sec{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+} */
+.about-head h1{
+    font-size: 50px;
+    color: rgb(83, 83, 241);
+    margin-top: 80px;
+}
+.about-head p{
+    font-size: medium;
+    margin-top: 30px;
+}
+/* .about-pic img{
+    width: 800px;
+    height: 300px;
+padding-left: 90px;
+margin-top: 40px;
+} */
+ .about-pic img{
+    width: 100%;
+ }
+ .about-sec{
+    width: 100%;
+ }
+/*------------------*/
+.image-sec{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+}
+.img-pic img{
+    width: 590px;
+    height: 490px;
+    margin-top: 50px;
+
+}
+.about-para h1{
+    font-size: 40px;
+    margin-top: 120px;
+    color: orange;
+    padding-left: 80px;
+}
+.about-para p{
+    font-size: medium;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+/*---------------------our sec--------------------------*/
+.our-sec{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 80px;
+width: 100%;
+}
+
+.our-purpose h1{
+    padding-left: 30px;
+    font-size: 23px;
+    color: green;
+}
+.our-purpose p{
+    padding-left: 30px;
+    font-size: 13px;
+    padding-right: 30px;
+}
+/*----------------------about shree----------------------*/
+.about-part{
+    display: flex;
+   padding-left: 30px;
+   padding-right: 30px;
+   width: 100%;
+}
+.about-shree h1{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+    color: green;
+}
+.about-img img{
+    width: 566px;
+        height: 300px;
+        margin-top: 62px;
+    }
+
+
+    .about-matter p{
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 10px;
+        margin-top: 60px;
+    }
+    .about-shree{
+        width: 100%;
+    }
+    /*-----------------chit rang------------------*/
+    .chit-sec{
+        width: 100%;
+      }
+      .rang-chit p {
+          padding-left: 80px;
+          font-size: 20px;
+          color: rgb(31, 88, 14);
+          font-weight: 500;
+          margin-top: 50px;
+          margin-bottom: 50px;
+        }
+      
+        .box-item {
+          font-size: 20px;
+          color: white;
+        }
+      
+        .message-button {
+          background-color: rgb(14, 85, 14);
+          height: 100px;
+          width: 200px;
+          border-radius: 12px;
+        }
+      
+        .box-sec {
+          display: flex;
+          gap: 2rem;
+          padding-left: 80px;
+          padding-right: 50px;
+          overflow-x: scroll;
+          white-space: nowrap;
+          scroll-behavior: smooth;
+        }
+        .box-sec::-webkit-scrollbar {
+          display: none;
+        }
+      
+        .box-sec {
+          -ms-overflow-style: none;
+          scrollbar-width: none; 
+        }
+        .message-button{
+            font-size: medium;
+        }
+    
+    
+        /*----------TESTMONIALS--------*/
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&family=Montserrat:wght@500;600;700&display=swap');
+    
+    
+    
+    .col-md-9 h2{
+        font-size: 30px;
+        margin-top: 90px;
+        }
+        .col-md-9 p{
+          margin-top: -250px;
+          font-size: medium;
+          padding-left: 50px;
+        }
+        .h-100{
+          width: 80%;
+        }
+        .testimonials{
+          background-color: #385929;
+          background-image: url(../images/pattern7.svg.png);
+          background-repeat: no-repeat;
+          background-position: 100% 50%;
+          margin-top: 90PX;
+          height: 580px;
+          width: 100%;
+        }
+      .traingle-wrap{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 40%;
+        height: 100%;
+      }
+      .triangle-images .tsingle{
+        transition: .3s ease;
+        transform: scale(.5);
+      }
+      .triangle-images .tsingle.active{
+        transform: scale(1);
+        background-color: #019444;
+        border: 4px solid #FFF699;
+        padding: 4px;
+      }
+      .triangle-images .tsingle:first-child{
+        transform: scale(1);
+        top: calc(50% - 80px);
+        left: 300px;
+      }
+      .triangle-images .tsingle:nth-child(2){
+        top: 15%;
+        left: 150px;
+      }
+      .triangle-images .tsingle:nth-child(3){
+        top: 0%;
+        left: 4%;
+      }
+      
+      .testi-single{
+        padding: 30rem 2rem 2rem;
+        background-image: url(../images/icons/quote1.svg),url(../images/icons/quote1.svg);
+        background-repeat: no-repeat;
+        background-position: 0 0, 100% calc(100%-2rem);
+      }
+    /*-------------------footer-sec------------------------------*/
+    
+    footer{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column;
+        height: 360px;
+        background-color: #385929;
+         position: relative;
+         width: 100%;
+         padding: 5rem 1rem;
+         margin-top: 100PX;
+      }
+      .container-footer {
+      width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 100px;
+        padding-right: 100px;
+      }
+      
+      .col{
+          min-width: 203px;
+          color:#f2f2f2f2;
+          font-family: poppins;
+          padding:0 2rem;
+          font-size: medium;
+      }
+      
+      .col .links a{
+          display: block;
+          text-decoration: none;
+          color:#f2f2f2;
+          margin-bottom: 5px;
+          position: relative;
+          transition: 0.3s ease;
+      }  
+      .col .contact-details{
+          display: inline-flex;
+          justify-content: space-between;
+      }
+      .col .contact-details i{
+          margin-right:15px;
+      }
+      
+      .links h2{
+      color: yellow;
+      font-size: medium;
+      
+      }
+      .links a{
+        font-size: 14px;
+        padding-left: 30px;
+      }
+      .links p{
+        font-size: 14px;
+      }
+      .container-footer img{
+      width: 70%;
+      height: 90px;
+      }
+      
+      .footer-part h2{
+        background-color: #406b2d;
+      padding-left: 36%;
+      color: yellow;
+      height: 80px;
+      padding-top: 30px;
+      font-size: 20px;
+      }
+      .footer-part{
+      width: 100%;
+      }
+      .col p{
+        font-size: 14px;
+        padding-right: 20px;
+      }
+        
+      }
+      
+      @media screen and (min-width:427px) and (max-width:769px)
+      {
+
+        body{
+          font-family: "Poppins", sans-serif;
+      
+      }
+      .logo{
+        width: 39%;
+        height: 81px;
+        padding-top: 1%;
+        padding-right: 11px;
+      }
+      .nav-logo{
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: sans-serif;
+      }
+      
+      nav{
+          padding: 10px 0px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          background-color: #385929;
+          position: relative;
+          height: 91px;
+          width: 100%;
+      }
+      .logo{
+          color: #fff;
+          margin-top: -1%;
+      }
+      
+      nav ul{
+          display: flex;
+          gap: 4rem;
+          align-items: center;
+          float: right;
+          margin-top: -4%;
+          padding-right: 2%;
+          font-size: 8px;
+          padding-top: 0%;
+      }
+      nav a:hover{
+          color: maroon;
+          transition: 1s;
+          background-color: white;
+          border-radius: 2px;
+          padding: 5px 10px;
+          text-decoration: none;
+      }
+      nav ul li{
+          list-style-type: none;
+      }
+      
+      nav ul li a{
+          text-decoration: none;
+          color: #fff;
+      }
+      
+      .menu-icon{
+          display: none;
+         float: right;
+         margin-top: -3%;
+      }
+      
+      .menu-icon i{
+          color: #fff;
+          font-size: 30px;
+          margin-top: -100%;
+      
+      }
+      .info-class{
+      background-color:navy;
+      
+      }
+  /*-----------------------about sec--------------------------------*/
+  /* .about-sec{
+      display: flex;
+      padding-left: 50px;
+      padding-right: 50px;
+  } */
+  .about-head h1{
+      font-size: 50px;
+      color: rgb(83, 83, 241);
+      margin-top: 80px;
+  }
+  .about-head p{
+      font-size: medium;
+      margin-top: 30px;
+  }
+  /* .about-pic img{
+      width: 800px;
+      height: 300px;
+  padding-left: 90px;
+  margin-top: 40px;
+  } */
+   .about-pic img{
+      width: 100%;
+      height: 220px;
+      margin-top: 10px;
+   }
+   .about-sec{
+      width: 100%;
+   }
+  /*------------------*/
+  .image-sec{
+      display: flex;
+      padding-left: 3px;
+      padding-right: 3px;
+      width: 100%;
+  }
+  .img-pic img{
+      width: 400px;
+      height: 400px;
+      margin-top: 80px;
+  
+  }
+  .about-para h1{
+      font-size: 35px;
+      margin-top: 120px;
+      color: orange;
+      padding-left: 80px;
+  }
+  .about-para p{
+      font-size: 14px;
+      margin-top: 30px;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  /*---------------------our sec--------------------------*/
+  .our-sec{
+      display: flex;
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-top: 80px;
+  width: 100%;
+  }
+  .our-purpose h1{
+      padding-left: 30px;
+      font-size: 20px;
+      color: green;
+  }
+  .our-purpose p{
+      padding-left: 30px;
+      font-size: 11px;
+      padding-right: 30px;
+  }
+  .our-purpose img{
+    width: 40px;
+    margin-left: 50px;
+  }
+  /*----------------------about shree----------------------*/
+  .about-part{
+      display: flex;
+     padding-left: 10px;
+     padding-right: 10px;
+     width: 100%;
+  }
+  .about-shree h1{
+      font-size: 22px;
+      text-align: center;
+      margin-top: 50px;
+      color: green;
+  }
+  .about-img img{
+    width: 404px;
+    height: 267px;
+    margin-top: 57px;
+      }
+  
+  
+      .about-matter p{
+          font-size: 13px;
+          padding-left: 10px;
+          padding-right: 10px;
+          margin-top: 60px;
+      }
+      .about-shree{
+          width: 100%;
+      }
+      /*-----------------chit rang------------------*/
+      .chit-sec{
+          width: 100%;
+        }
+        .rang-chit p {
+            padding-left: 80px;
+            font-size: 20px;
+            color: rgb(31, 88, 14);
+            font-weight: 500;
+            margin-top: 50px;
+            margin-bottom: 50px;
+          }
+        
+          .box-item {
+            font-size: 20px;
+            color: white;
+          }
+        
+          .message-button {
+            background-color: rgb(14, 85, 14);
+            height: 100px;
+            width: 200px;
+            border-radius: 12px;
+          }
+        
+          .box-sec {
+            display: flex;
+            gap: 2rem;
+            padding-left: 80px;
+            padding-right: 50px;
+            overflow-x: scroll;
+            white-space: nowrap;
+            scroll-behavior: smooth;
+          }
+          .box-sec::-webkit-scrollbar {
+            display: none;
+          }
+        
+          .box-sec {
+            -ms-overflow-style: none;
+            scrollbar-width: none; 
+          }
+          .message-button{
+              font-size: medium;
+          }
+      
+      
+          /*----------TESTMONIALS--------*/
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&family=Montserrat:wght@500;600;700&display=swap');
+      
+      
+      
+      .col-md-9 h2{
+        font-size: 23px;
+        margin-top: -15px;
+        }
+        .col-md-9 p{
+          margin-top: -210px;
+          font-size: small;
+          padding-left: 190px;
+        }
+        
+        
+        .h-100{
+          width: 80%;
+        }
+        .testimonials{
+          background-color: #385929;
+          background-image: url(../images/pattern7.svg.png);
+          background-repeat: no-repeat;
+          background-position: 100% 50%;
+          margin-top: 90PX;
+          height: 450px;
+          width: 100%;
+        }
+        .traingle-wrap{
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 40%;
+          height: 100%;
+        }
+        .triangle-images .tsingle{
+          transition: .3s ease;
+          transform: scale(.5);
+        }
+        .triangle-images .tsingle.active{
+          transform: scale(1);
+          background-color: #019444;
+          border: 4px solid #FFF699;
+          padding: 4px;
+        }
+        .triangle-images .tsingle:first-child{
+          transform: scale(1);
+          top: calc(50% - 80px);
+          left: 300px;
+        }
+        .triangle-images .tsingle:nth-child(2){
+          top: 15%;
+          left: 150px;
+        }
+        .triangle-images .tsingle:nth-child(3){
+          top: 0%;
+          left: 4%;
+        }
+        
+        .testi-single{
+          padding: 15rem 2rem 2rem;
+          background-image: url(../images/icons/quote1.svg),url(../images/icons/quote1.svg);
+          background-repeat: no-repeat;
+          background-position: 0 0, 100% calc(100%-2rem);
+        }
+        
+      /*-------------------footer-sec------------------------------*/
+      
+      footer{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column;
+        height: 336px;
+        background-color: #385929;
+         position: relative;
+         width: 100%;
+         padding: 5rem 1rem;
+         margin-top: 100PX;
+      }
+      .container-footer {
+      width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 3px;
+        padding-right: 3px;
+      }
+      
+      .col{
+          min-width: 188px;
+          color:#f2f2f2f2;
+          font-family: poppins;
+          padding:0 2rem;
+          font-size: medium;
+      }
+      
+      .col .links a{
+          display: block;
+          text-decoration: none;
+          color:#f2f2f2;
+          margin-bottom: 5px;
+          position: relative;
+          transition: 0.3s ease;
+          font-size: 13px;
+      }  
+      .col .contact-details{
+          display: inline-flex;
+          justify-content: space-between;
+      }
+      .col .contact-details i{
+          margin-right:15px;
+      }
+      
+      .links h2{
+      color: yellow;
+      font-size: medium;
+      
+      }
+      .links a{
+        font-size: 14px;
+        padding-left: 30px;
+      }
+      .links p{
+        font-size: 14px;
+      }
+      .container-footer img{
+      width: 75%;
+      height: 90px;
+      }
+      
+      .footer-part h2{
+        background-color: #406b2d;
+      padding-left: 40%;
+      color: yellow;
+      height: 80px;
+      padding-top: 30px;
+      }
+      .footer-part{
+      width: 100%;
+      }
+      .col p{
+        font-size: 13px;
+        padding-right: 20px;
+      }
+
+      }
+      
+
+/*------------------------------------mobile view----------------------------------------*/
+@media screen and (min-width:375px) and (max-width:426px)
+{
+  
+
+  
+  nav ul{
+      top: 0px;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      text-align: center;
+      background:green;
+      gap: 0;
+      overflow: hidden;
+      margin-top: 2%;
+      color: green;
+      line-height: 25px;
+  }
+  nav ul li a{
+    padding: 20px;
+    padding-top: 0;
+    color: white;
+    text-decoration: none;
+    line-height: 25px;
+}
+  .menu-icon{
+      display: block;
+      margin-top: -21%;
+  }
+  #menuList{
+      transition: all 0.5s;
+}
+.manu-link{
+  font-size: 49px;
+  color: white !important;
+  margin-right: -33px;
+}
+
+nav{
+padding: 10px 30px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: #385929;
+position: relative;
+height: 90px;
+width: 100%;
+}
+
+.logo{
+  width: 85%;
+  height: 74px;
+  padding-top: 1%;
+  padding-right: -13px;
+  padding-left: 72px;
+  }
+
+/*-----------------------about sec--------------------------------*/
+  /* .about-sec{
+      display: flex;
+      padding-left: 50px;
+      padding-right: 50px;
+  } */
+  .about-head h1{
+    font-size: 50px;
+    color: rgb(83, 83, 241);
+    margin-top: 80px;
+}
+.about-head p{
+    font-size: medium;
+    margin-top: 30px;
+}
+/* .about-pic img{
+    width: 800px;
+    height: 300px;
+padding-left: 90px;
+margin-top: 40px;
+} */
+ .about-pic img{
+    width: 100%;
+    height: 120px;
+    margin-top: 10px;
+ }
+ .about-sec{
+    width: 100%;
+ }
+/*------------------*/
+.image-sec{
+    display: block;
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 100%;
+}
+.img-pic img{
+    width: 315px;
+    height: 340px;
+    margin-top: 80px;
+
+}
+.about-para h1{
+    font-size: 35px;
+    margin-top: 120px;
+    color: orange;
+    padding-left: 80px;
+}
+.about-para p{
+    font-size: 14px;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*---------------------our sec--------------------------*/
+.our-sec{
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 80px;
+width: 100%;
+}
+.our-purpose h1{
+    padding-left: 30px;
+    font-size: 20px;
+    color: green;
+}
+.our-purpose p{
+    padding-left: 30px;
+    font-size: 11px;
+    padding-right: 30px;
+}
+.our-purpose img{
+  width: 30px;
+  margin-left: 50px;
+}
+/*----------------------about shree----------------------*/
+.about-part{
+    display: block;
+   padding-left: 10px;
+   padding-right: 10px;
+   width: 100%;
+   justify-items: center;
+}
+.about-shree h1{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 50px;
+    color: green;
+}
+.about-img img{
+  width: 304px;
+  height: 267px;
+  margin-top: 57px;
+    }
+
+
+    .about-matter p{
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 60px;
+    }
+    .about-shree{
+        width: 100%;
+    }
+    /*-----------------chit rang------------------*/
+    .chit-sec{
+        width: 100%;
+      }
+      .rang-chit p {
+          padding-left: 80px;
+          font-size: 20px;
+          color: rgb(31, 88, 14);
+          font-weight: 500;
+          margin-top: 50px;
+          margin-bottom: 50px;
+        }
+      
+        .box-item {
+          font-size: 20px;
+          color: white;
+        }
+      
+        .message-button {
+          background-color: rgb(14, 85, 14);
+          height: 100px;
+          width: 200px;
+          border-radius: 12px;
+        }
+      
+        .box-sec {
+          display: flex;
+          gap: 2rem;
+          padding-left: 80px;
+          padding-right: 50px;
+          overflow-x: scroll;
+          white-space: nowrap;
+          scroll-behavior: smooth;
+        }
+        .box-sec::-webkit-scrollbar {
+          display: none;
+        }
+      
+        .box-sec {
+          -ms-overflow-style: none;
+          scrollbar-width: none; 
+        }
+        .message-button{
+            font-size: medium;
+        }
+    
+    
+        /*----------TESTMONIALS--------*/
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&family=Montserrat:wght@500;600;700&display=swap');
+    
+    
+    
+    .col-md-9 h2{
+      font-size: 20px;
+      margin-top: -20px;
+      }
+      .col-md-9 p{
+      margin-top: -210px;
+      font-size: small;
+      padding-left: 5px;
+      margin-top: -15px;
+      }
+      
+      
+      .h-100{
+      width: 80%;
+      }
+      .testimonials{
+        background-color: #385929;
+      background-image: url(../images/pattern7.svg.png);
+      background-repeat: no-repeat;
+      background-position: 100% 50%;
+      margin-top: 90PX;
+      height: 475px;
+      width: 100%;
+      }
+      .traingle-wrap{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 40%;
+      height: 100%;
+      }
+      .triangle-images .tsingle{
+      transition: .3s ease;
+      transform: scale(.5);
+      }
+      .triangle-images .tsingle.active{
+      transform: scale(1);
+      background-color: #019444;
+      border: 4px solid #FFF699;
+      padding: 4px;
+      }
+      .triangle-images .tsingle:first-child{
+      transform: scale(1);
+      top: calc(50% - 80px);
+      left: 300px;
+      }
+      .triangle-images .tsingle:nth-child(2){
+      top: 15%;
+      left: 150px;
+      }
+      .triangle-images .tsingle:nth-child(3){
+      top: 0%;
+      left: 4%;
+      }
+      
+      .testi-single{
+      padding: 0rem 2rem 2rem;
+      background-image: url(../images/icons/quote1.svg),url(../images/icons/quote1.svg);
+      background-repeat: no-repeat;
+      background-position: 0 0, 100% calc(100%-2rem);
+      }
+      
+    /*-------------------footer-sec------------------------------*/
+    
+    footer{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-direction: column;
+      height: 756px;
+      background-color: #385929;
+       position: relative;
+       width: 100%;
+       padding: 5rem 2rem 2rem 0rem;
+       margin-top: 100PX;
+    }
+    .container-footer {
+    width: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-left: 3px;
+      padding-right: 3px;
+    }
+    
+    .col{
+        min-width: 215px;
+        color:#f2f2f2f2;
+        font-family: poppins;
+        padding:0 2rem;
+        font-size: medium;
+        max-width: 21%;
+    }
+    
+    .col .links a{
+        display: block;
+        text-decoration: none;
+        color:#f2f2f2;
+        margin-bottom: 5px;
+        position: relative;
+        transition: 0.3s ease;
+        font-size: 13px;
+        text-align: center;
+    }  
+    .col .contact-details{
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    .col .contact-details i{
+        margin-right:-18px;
+        margin-left: 58px;
+    }
+    
+    .links h2{
+    color: yellow;
+    font-size: small;
+    text-align: center;
+    
+    }
+    .links a{
+      font-size: 14px;
+      padding-left: 30px;
+    }
+    .links p{
+      font-size: 14px;
+    }
+    .container-footer img{
+    width: 75%;
+    height: 120px;
+    margin-left: 20px;
+    }
+    
+    .footer-part h2{
+      background-color: #406b2d;
+    padding-left: 14%;
+    color: yellow;
+    height: 80px;
+    padding-top: 30px;
+    }
+    .footer-part{
+    width: 100%;
+    }
+    .col p{
+      font-size: 11px;
+      padding-right: 13px;
+      text-align: center;
+      padding-left: 44px;
+    }
+    
+}
+
+@media screen and (min-width:320px) and (max-width:374px)
+{
+  
+
+    nav ul{
+      top: 0px;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      text-align: center;
+      background:green;
+      gap: 0;
+      overflow: hidden;
+      margin-top: 2%;
+      color: green;
+      line-height: 25px;
+  }
+  nav ul li a{
+    padding: 20px;
+    padding-top: 0;
+    color: white;
+    text-decoration: none;
+    line-height: 25px;
+}
+  .menu-icon{
+      display: block;
+      margin-top: -21%;
+  }
+  #menuList{
+      transition: all 0.5s;
+}
+.manu-link{
+  font-size: 49px;
+  color: white !important;
+  margin-right: -33px;
+}
+
+nav{
+padding: 10px 30px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: #385929;
+position: relative;
+height: 90px;
+width: 100%;
+}
+
+.logo{
+  width: 98%;
+  height: 74px;
+  padding-top: 1%;
+  padding-right: -13px;
+  padding-left: 72px;
+  }
+
+/*-----------------------about sec--------------------------------*/
+  /* .about-sec{
+      display: flex;
+      padding-left: 50px;
+      padding-right: 50px;
+  } */
+  .about-head h1{
+    font-size: 50px;
+    color: rgb(83, 83, 241);
+    margin-top: 80px;
+}
+.about-head p{
+    font-size: medium;
+    margin-top: 30px;
+}
+/* .about-pic img{
+    width: 800px;
+    height: 300px;
+padding-left: 90px;
+margin-top: 40px;
+} */
+ .about-pic img{
+    width: 100%;
+    height: 120px;
+    margin-top: 10px;
+ }
+ .about-sec{
+    width: 100%;
+ }
+/*------------------*/
+.image-sec{
+    display: block;
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 100%;
+}
+.img-pic img{
+    width: 315px;
+    height: 340px;
+    margin-top: 80px;
+
+}
+.about-para h1{
+    font-size: 35px;
+    margin-top: 120px;
+    color: orange;
+    padding-left: 80px;
+}
+.about-para p{
+    font-size: 14px;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*---------------------our sec--------------------------*/
+.our-sec{
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 80px;
+width: 100%;
+}
+.our-purpose h1{
+    padding-left: 30px;
+    font-size: 20px;
+    color: green;
+}
+.our-purpose p{
+    padding-left: 30px;
+    font-size: 11px;
+    padding-right: 30px;
+}
+.our-purpose img{
+  width: 30px;
+  margin-left: 50px;
+}
+/*----------------------about shree----------------------*/
+.about-part{
+    display: block;
+   padding-left: 10px;
+   padding-right: 10px;
+   width: 100%;
+   justify-items: center;
+}
+.about-shree h1{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 50px;
+    color: green;
+}
+.about-img img{
+  width: 304px;
+  height: 267px;
+  margin-top: 57px;
+    }
+
+
+    .about-matter p{
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 60px;
+    }
+    .about-shree{
+        width: 100%;
+    }
+    /*-----------------chit rang------------------*/
+    .chit-sec{
+        width: 100%;
+      }
+      .rang-chit p {
+          padding-left: 80px;
+          font-size: 20px;
+          color: rgb(31, 88, 14);
+          font-weight: 500;
+          margin-top: 50px;
+          margin-bottom: 50px;
+        }
+      
+        .box-item {
+          font-size: 20px;
+          color: white;
+        }
+      
+        .message-button {
+          background-color: rgb(14, 85, 14);
+          height: 100px;
+          width: 200px;
+          border-radius: 12px;
+        }
+      
+        .box-sec {
+          display: flex;
+          gap: 2rem;
+          padding-left: 80px;
+          padding-right: 50px;
+          overflow-x: scroll;
+          white-space: nowrap;
+          scroll-behavior: smooth;
+        }
+        .box-sec::-webkit-scrollbar {
+          display: none;
+        }
+      
+        .box-sec {
+          -ms-overflow-style: none;
+          scrollbar-width: none; 
+        }
+        .message-button{
+            font-size: medium;
+        }
+    
+    
+        /*----------TESTMONIALS--------*/
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&family=Montserrat:wght@500;600;700&display=swap');
+    
+    
+    
+    .col-md-9 h2{
+      font-size: 20px;
+      margin-top: -20px;
+      }
+      .col-md-9 p{
+      margin-top: -210px;
+      font-size: small;
+      padding-left: 5px;
+      margin-top: -15px;
+      }
+      
+      
+      .h-100{
+      width: 80%;
+      }
+      .testimonials{
+        background-color: #385929;
+      background-image: url(../images/pattern7.svg.png);
+      background-repeat: no-repeat;
+      background-position: 100% 50%;
+      margin-top: 90PX;
+      height: 475px;
+      width: 100%;
+      }
+      .traingle-wrap{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 40%;
+      height: 100%;
+      }
+      .triangle-images .tsingle{
+      transition: .3s ease;
+      transform: scale(.5);
+      }
+      .triangle-images .tsingle.active{
+      transform: scale(1);
+      background-color: #019444;
+      border: 4px solid #FFF699;
+      padding: 4px;
+      }
+      .triangle-images .tsingle:first-child{
+      transform: scale(1);
+      top: calc(50% - 80px);
+      left: 300px;
+      }
+      .triangle-images .tsingle:nth-child(2){
+      top: 15%;
+      left: 150px;
+      }
+      .triangle-images .tsingle:nth-child(3){
+      top: 0%;
+      left: 4%;
+      }
+      
+      .testi-single{
+      padding: 0rem 2rem 2rem;
+      background-image: url(../images/icons/quote1.svg),url(../images/icons/quote1.svg);
+      background-repeat: no-repeat;
+      background-position: 0 0, 100% calc(100%-2rem);
+      }
+      
+    /*-------------------footer-sec------------------------------*/
+    
+    footer{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-direction: column;
+      height: 756px;
+      background-color: #385929;
+       position: relative;
+       width: 100%;
+       padding: 5rem 2rem 2rem 0rem;
+       margin-top: 100PX;
+    }
+    .container-footer {
+    width: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-left: 3px;
+      padding-right: 3px;
+    }
+    
+    .col{
+        min-width: 215px;
+        color:#f2f2f2f2;
+        font-family: poppins;
+        padding:0 2rem;
+        font-size: medium;
+        max-width: 21%;
+    }
+    
+    .col .links a{
+        display: block;
+        text-decoration: none;
+        color:#f2f2f2;
+        margin-bottom: 5px;
+        position: relative;
+        transition: 0.3s ease;
+        font-size: 13px;
+        text-align: center;
+    }  
+    .col .contact-details{
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    .col .contact-details i{
+        margin-right:-18px;
+        margin-left: 58px;
+    }
+    
+    .links h2{
+    color: yellow;
+    font-size: small;
+    text-align: center;
+    
+    }
+    .links a{
+      font-size: 14px;
+      padding-left: 30px;
+    }
+    .links p{
+      font-size: 14px;
+    }
+    .container-footer img{
+    width: 75%;
+    height: 120px;
+    margin-left: 20px;
+    }
+    
+    .footer-part h2{
+      background-color: #406b2d;
+    padding-left: 14%;
+    color: yellow;
+    height: 80px;
+    padding-top: 30px;
+    }
+    .footer-part{
+    width: 100%;
+    }
+    .col p{
+      font-size: 11px;
+      padding-right: 13px;
+      text-align: center;
+      padding-left: 44px;
+    }
+  }
+
+
+
+
+

@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <link rel="stylesheet" href="../js/index.js">
+   <link rel="stylesheet" href="../js/script.js">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+     
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" integrity="sha512-t4GWSVZO1eC8BM339Xd7Uphw5s17a86tIZIj8qRxhnKub6WoyhnrxeCIMeAqBPgdZGlCcG2PrZjMc+Wr78+5Xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+    
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="../css/swiper-bundle.min.css" />
+
+<!-- Boxicons CSS -->
+<link
+  href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+  rel="stylesheet"
+/>
+
+</head>
+<body>
+    <!--navbar-->
+
+    <nav>
+      <div class="nav-logo">
+      <div class="logo">
+          <h1><img src="../images/logo1.png" alt="logo"  class="logo"></h1>
+      </div>
+      <ul id="menuList">
+          <li><a href="../HTML/home.html">HOME</a></li>
+          <li><a href="../HTML/about.html">ABOUT US</a></li>
+          <li><a href="../HTML/services.html">SERVICES</a></li>
+          <li><a href="../HTML/plan.html">OUR PLANS</a></li>
+          <li><a href="../HTML/benefits.html">BENEFITS</a></li>
+          <li><a href="../HTML/contact.html">CONTACT US</a></li>
+          <li class="info-class"><a href="../HTML/contact.html"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+              info@example.com</a></li>
+          <li><a href="../HTML/contact.html"><i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+              7036688811</a></li>
+    
+      </ul>
+      <div class="menu-icon">
+          <ion-icon name="menu-outline" onclick="toggleMenu()" class="manu-link"></ion-icon>
+      </div>
+      </div>
+  </nav>
+  <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="../images/kaveendra banner 2.jpg" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="../images/kaveendra banner 3.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="../images/kaveendra banner.jpg" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+ -->
+
+
+ <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../images/kaveendra banner 2.jpg" alt="Los Angeles" >
+      </div>
+      <div class="carousel-item">
+        <img src="../images/kaveendra banner 3.jpg" alt="Chicago">
+      </div>
+      <div class="carousel-item">
+        <img src="../images/kaveendra banner.jpg" alt="New York">
+      </div>
+    </div>
+    
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+<!----------------best kaveendra ---------------->
+
+<div class="best-kaveendra">
+    <div class="kaveendra-h">
+        <h5>BEST SHREE KAVEENDRA CHIT FUNDS PVT.LTD</h5>
+<P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque impedit nobis optio similique, nostrum quaerat ipsa consectetur.</P>
+<H6>PERSONALISED FINANCIAL SOLUTIONS</H6>
+    </div>
+</div>
+<!------------------------------emd------------------->
+
+
+<!----------------------img sec----------------------->
+
+<div class="img-sec">
+  <div class="image-container">
+      <img src="../images/pic1.jpg" alt="Image" id="img-click">
+      <p class="text-sec">Begginers</p>
+      <div class="text">
+        <p id="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, beatae voluptatum. Voluptatum minima sunt maxime quis magnam animi illum officiis, saepe veritatis officia similique hic nobis corrupti sit soluta libero.</p>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="../images/pic2.jpg" alt="Image" id="img-click">
+      <div class="text">
+        <p id="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, beatae voluptatum. Voluptatum minima sunt maxime quis magnam animi illum officiis, saepe veritatis officia similique hic nobis corrupti sit soluta libero.</p>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="../images/pic3.jpg" alt="Image" id="img-click">
+      <div class="text">
+        <p id="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, beatae voluptatum. Voluptatum minima sunt maxime quis magnam animi illum officiis, saepe veritatis officia similique hic nobis corrupti sit soluta libero.</p>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="../images/pic4.jpg" alt="Image" id="img-click">
+      <div class="text">
+        <p id="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, beatae voluptatum. Voluptatum minima sunt maxime quis magnam animi illum officiis, saepe veritatis officia similique hic nobis corrupti sit soluta libero.</p>
+      </div>
+    </div>
+</div>
+<script>
+ document.getElementById('img-click').addEventListener('click', function() {
+var textContainer = document.querySelector('.text');
+textContainer.classList.toggle('show-text'); 
+});
+
+
+</script>
+
+
+  <!------------------------------emd------------------->
+
+<!------------------chit rang------------------->
+<div class="chit-sec">
+  <div class="chit-rang">
+    <div class="rang-chit">
+      <p>chit plans ranging from</p>
+    </div>
+  </div>
+  <div class="box-sec" id="scrollContainer">
+    <div class="box-item">
+      <button class="message-button">₹ 2,40,000<br>₹ 5,000 per month <br>duration:50 months</button>
+    </div>
+    <div class="box-item">
+      <button class="message-button">₹ 2,40,000<br>₹ 5,000 per month <br>duration:50 months</button>
+    </div>
+    <div class="box-item">
+      <button class="message-button">₹ 2,40,000<br>₹ 5,000 per month <br>duration:50 months</button>
+    </div>
+    <div class="box-item">
+      <button class="message-button">₹ 2,40,000<br>₹ 5,000 per month <br>duration:50 months</button>
+    </div>
+    <div class="box-item">
+      <button class="message-button">₹ 2,40,000<br>₹ 5,000 per month <br>duration:50 months</button>
+    </div>
+    <div class="box-item">
+      <button class="message-button">₹ 2,40,000<br>₹ 5,000 per month <br>duration:50 months</button>
+    </div>
+    <div class="box-item">
+      <button class="message-button">₹ 2,40,000<br>₹ 5,000 per month <br>duration:50 months</button>
+    </div>
+  </div>
+</div>
+<!----------------scroll js--------------------->
+<script>
+  
+  const scrollContainer = document.getElementById('scrollContainer');
+  let scrolling = true;
+
+  function autoScroll() {
+    if (scrolling) {
+      scrollContainer.scrollLeft += 2; 
+    }
+    requestAnimationFrame(autoScroll);
+  }
+
+  
+  scrollContainer.addEventListener('mousedown', () => scrolling = false);
+  scrollContainer.addEventListener('touchstart', () => scrolling = false);
+
+  
+  autoScroll();
+</script>
+
+<!----------------end scroll js------------->
+
+<!--------------MAP-->
+    
+     <section class="presence py-5">
+        <div class="container">
+            <h2 class="sec-title green">Our Presence</h2>
+            <div class="row">
+                <div class="col-md-4 col-lg-3 pt-lg-5">
+                    <ul class="presence-list">
+                        <li class="active" data-target="map1">Andhra Pradesh</li>
+                        <li data-target="map2">Telangana</li>
+                        <li data-target="map3">Tamil Nadu</li>
+                        <li data-target="map4">Karnataka</li>
+                    </ul>
+                </div>
+                <div class="col-md-8 col-lg-9">
+                    <div class="row align-items-end">
+                        <div class="col-md-9 text-md-center">
+                            <div class="mapdet position-relative" id="map1" style="display: block">
+                                <img src="../images/map1.png" alt="Map" class="img-fluid map-img">
+                                <div class="map-caption right">
+                                    <p class="desc md mb-1"><strong>37 Branches in Andhra Pradesh</strong></p>
+                                   
+                                    
+                                        <svg class="ms-2" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 7L17 12L12 17" stroke="#019444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M1 1V8C1 9.06087 1.42143 10.0783 2.17157 10.8284C2.92172 11.5786 3.93913 12 5 12H17" stroke="#019444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="mapdet position-relative" id="map2" style="display: none">
+                                <img src="../images/map2.png" alt="Map" class="img-fluid map-img">
+                                <div class="map-caption right">
+                                    <p class="desc md mb-1"><strong>37 Branches in Telangana</strong></p>
+                                 
+                                    
+                                        <svg class="ms-2" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 7L17 12L12 17" stroke="#019444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M1 1V8C1 9.06087 1.42143 10.0783 2.17157 10.8284C2.92172 11.5786 3.93913 12 5 12H17" stroke="#019444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="mapdet position-relative" id="map3" style="display: none">
+                                <img src="../images/map3.png" alt="Map" class="img-fluid map-img">
+                                <div class="map-caption right bottom">
+                                    <p class="desc md mb-1"><strong>17 Branches in Tamil Nadu</strong></p>
+                                 
+                                    
+                                        <svg class="ms-2" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 7L17 12L12 17" stroke="#019444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M1 1V8C1 9.06087 1.42143 10.0783 2.17157 10.8284C2.92172 11.5786 3.93913 12 5 12H17" stroke="#019444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="mapdet position-relative" id="map4" style="display: none">
+                                <img src="../images/map4.png" alt="Map" class="img-fluid map-img">
+                                <div class="map-caption left">
+                                    <p class="desc md mb-1"><strong>23 Branches in Karnataka</strong></p>
+                               
+                                    
+                                        <svg class="ms-2" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 7L17 12L12 17" stroke="#019444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M1 1V8C1 9.06087 1.42143 10.0783 2.17157 10.8284C2.92172 11.5786 3.93913 12 5 12H17" stroke="#019444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-end">
+                     <img src="../images/Group 637.jpg" alt="Breanch" class="img-fluid mb-2"><br>Branch Locator</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js" integrity="sha512-VK2zcvntEufaimc+efOYi622VN5ZacdnufnmX7zIhCPmjhKnOi9ZDMtg1/ug5l183f19gG1/cBstPO4D8N/Img==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>$(function(){
+    $(window).on('scroll',function() {
+        var windscroll = $(window).scrollTop();
+        if(windscroll>200){
+            $('.gototop').fadeIn()
+        }
+        else{
+            $('.gototop').fadeOut()
+        }
+    })
+    $('#disbursals-modal.hom').addClass('opened')
+    // $('#exampleModalCenter').modal('show')
+    // $('#exampleModalCenter .close').on('click',function(){
+    //     $('#exampleModalCenter').modal('hide')
+    // })
+    setTimeout(() => {
+        $('#disbursals-modal').removeClass('opened hom')
+    }, 10000);
+
+    $('.banner-slider').slick({
+        slidesToShow: 1,
+        infinite:true,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: true,
+        infinite: false,
+        autoplay:false,
+        lazyLoad:'ondemand',
+     
+        
+    });
+    $('.cf-nav').slick({
+        variableWidth:true,
+        infinite:false,
+        arrows:false,
+        dots:false,
+        asNavFor: '.cf-slider',
+        focusOnSelect: true
+    });
+    $('.cf-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        // fade:true,
+        infinite:false,
+        arrows:false,
+        dots:false,
+        asNavFor: '.cf-nav',
+        adaptiveHeight: true,
+        focusOnSelect: true
+    });
+    $('.why-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        // vertical:true,
+        // verticalSwiping:true,
+        infinite:true,
+        arrows:false,
+        dots:true,
+        focusOnSelect: true
+        // responsive: [
+        //     {
+        //         breakpoint: 767,
+        //         settings: {
+        //             slidesToShow: 1,
+        //             vertical:false,
+        //             verticalSwiping:false,
+        //             dots:true
+        //         }
+        //     }
+        // ]
+    }).on('beforeChange', function(event, slick, currentSlide, nextSlide){
+        $('.why-container .wsingle:nth-child('+(nextSlide+1)+')').addClass('active').prevUntil().addClass('active')
+        $('.why-container .wsingle:nth-child('+(nextSlide+1)+')').nextUntil().removeClass('active')
+    });
+
+    $('.testi-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite:false,
+        arrows:true,
+        dots:false,
+        prevArrow: $('.testi-prev'),
+        nextArrow: $('.testi-next'),
+    }).on('afterChange', function(event, slick, currentSlide, nextSlide){
+        let curr = $('.testi-slider .testi-single.slick-current').index() + 1
+        let len = $('.testi-slider .testi-single').length
+        let src1,src2,src3;
+        if(curr==len){
+            src1 = $('.testi-slider .testi-single:last-child').find('img').attr('src')
+            src2 = $('.testi-slider .testi-single:nth-child(1)').find('img').attr('src')
+            src3 = $('.testi-slider .testi-single:nth-child(2)').find('img').attr('src')
+        }
+        else if(curr+1==len){
+            src1 = $('.testi-slider .testi-single:nth-last-child(2)').find('img').attr('src')
+            src2 = $('.testi-slider .testi-single:last-child').find('img').attr('src')
+            src3 = $('.testi-slider .testi-single:nth-child(1)').find('img').attr('src')
+        }
+        else{
+            src1 = $('.testi-slider .testi-single.slick-current').find('img').attr('src')
+            src2 = $('.testi-slider .testi-single.slick-current').next().find('img').attr('src')
+            src3 = $('.testi-slider .testi-single.slick-current + .testi-single').next().find('img').attr('src')
+        }
+        $('.triangle-images .tsingle:nth-child(1) img').attr('src',src1)
+        $('.triangle-images .tsingle:nth-child(2) img').attr('src',src2)
+        $('.triangle-images .tsingle:nth-child(3) img').attr('src',src3)
+    });
+    $('.media-slider').slick({
+        slidesToShow: 4,
+        infinite:true,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: true,
+        infinite: false,
+        autoplay:false,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 4,
+                }
+            },
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 575,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
+    $('.company-slider').slick({
+        slidesToShow: 1,
+        infinite:true,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: true,
+        infinite: false,
+        autoplay:false,
+        adaptiveHeight:true,
+        // fade:true,
+        prevArrow: $('.company-prev'),
+        nextArrow: $('.company-next')
+    }).on('beforeChange', function(event, slick, currentSlide, nextSlide){
+        $('.company-list .company-icon:nth-child('+(nextSlide+1)+')').addClass('active').siblings().removeClass('active')
+    });
+
+
+
+    $('.presence-list li').on('click',function(){
+        $(this).addClass('active').siblings().removeClass('active')
+        $('#'+$(this).data('target')).show().siblings().hide()
+    })
+    $('.media-tabs a').on('click',function(){
+        $(this).addClass('active').siblings().removeClass('active')
+        $('#'+$(this).data('target')).fadeIn().find('.media-slider').slick('refresh')
+        $('#'+$(this).data('target')).siblings('.media-content').hide()
+    })
+    $('.job-single .job-head').on('click',function(){
+        if(!$(this).hasClass('external'))
+        $(this).parents('.job-single').toggleClass('exp').find('.job-body').slideToggle()
+    })
+    $(document).on('click','.branch-single .branch-head',function(){
+        $(this).toggleClass('active').siblings('.branch-body').slideToggle().parents('.branch-single').siblings('.branch-single').find('.branch-head').removeClass('active').siblings('.branch-body').slideUp()
+    })
+    $('.company-list .company-icon').on('click',function(){
+        $(this).addClass('active').siblings().removeClass('active')
+        $('.company-slider').slick('slickGoTo',$(this).index())
+    })
+    $('.feed-tabs .feed-tab').on('click',function(){
+        $(this).addClass('active').siblings().removeClass('active')
+        $('#'+$(this).data('target')).show().siblings('.feed-content').hide()
+    })
+    $('.why-container .wsingle').on('click',function(){
+        let i = $(this).index()
+        $(this).addClass('active').prevUntil().addClass('active')
+        $(this).nextUntil().removeClass('active')
+        $('.why-slider').slick('slickGoTo',i)
+    })
+    $('.disbursals-modal-trigger').on('click',function(){$('#disbursals-modal').addClass('opened')})
+    $('.custom-modal .clos').on('click',function(){$(this).parents('.custom-modal').removeClass('opened hom')})
+    $('.gototop').click(function(){
+        $('html,body').animate({ scrollTop: 0 }, 'linear');
+        return false;
+    });
+    $('a[href*=\\#]').on('click', function(e){
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop : $(this.hash).offset().top
+        }, 500);
+    });
+
+    if($(window).width()<991){
+        $('.header-navbar .navbar-nav .nav-item.hassub .toggl').on('click',function(){
+            $(this).toggleClass('exp').siblings('.submenu').slideToggle()
+        })
+    }
+
+
+
+})
+</script>
+
+
+
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8d6fb37228504010',t:'MTcyOTY2NTI2Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"8d6fb37228504010","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2024.10.3","token":"57a13ec6b14a4746a2fdac93cb18b9fa"}' crossorigin="anonymous"></script>
+
+
+ <!------------------------------------------->
+<div class="main-sec">
+<div class="best-kaveendra">
+  <div class="kaveendra-best">
+  
+    <h2>BEST SHREE KAVEENDRA CHIT FUNDS PVT.LTD</h2>
+    <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi eaque molestias, nobis animi eos rerum ratione ipsam dicta perspiciatis omnis optio voluptatum vero natus tempore est vel, rem libero excepturi?</P>
+<img src="../images/Group 14.jpg" alt="">
+  </div>
+  <div class="imgs-img">
+  <div class="img-img">
+    <img src="../images/pic5 (1).jpg" alt="">
+  </div>
+  <div class="img-img">
+    <img src="../images/pic5 (2).jpg" alt="">
+  </div>
+  <div class="img-img">
+    <img src="../images/pic5 (3).jpg" alt="">
+  </div>
+</div>
+<h1>KAVEENDRA CHIT FUNDS</h1>
+</div>
+
+
+<div class="trust-sec">
+<div class="trust-text">
+  <h1>Most Trusted</h1>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex in rem nulla a iusto accusamus,</p>
+</div>
+<div class="trust-text">
+  <h1>Easy Accessibility</h1>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex in rem nulla a iusto accusamus,in rem nulla a iusto accusamus,Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+</div>
+</div>
+<div class="trust-sec2">
+<div class="trust-text">
+  <h1>Large Choice of chits</h1>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex in rem nulla a iusto accusamus,Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+</div>
+<div class="trust-text">
+  <h1>24/7 Support</h1>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex in rem nulla a iusto accusamus,</p>
+</div>
+</div>
+
+</div>
+
+
+
+
+
+<!-----------testmonial------------>
+
+
+<section class="testimonials position-relative py-5">
+  <div class="traingle-wrap d-none d-lg-block">
+      <img src="../images/Untitled-removebg-preview.png" alt="Triangle" class="h-100">
+      <div class="triangle-images">
+          <div class="tsingle rounded-circle overflow-hidden position-absolute active"><img src="../images/Untitled.jpg" alt="Author" class="w-100 rounded-circle"></div>
+          <div class="tsingle rounded-circle overflow-hidden position-absolute"><img src="../images/Untitled2.jpg" alt="Author" class="w-100 rounded-circle"></div>
+          <div class="tsingle rounded-circle overflow-hidden position-absolute"><img src="../images/Untitled3.jpg" alt="Author" class="w-100 rounded-circle"></div>
+      </div>
+  </div>
+  <div class="container">
+      <div class="row">
+          <div class="col-md-9 col-lg-6 offset-lg-4">
+              <h2 class="sec-title text-white mb-5">Testimonials</h2>
+              <div class="testi-slider">
+                  <div class="testi-single">
+                      <img src="../images/Untitled4.jpg" alt="Author" class="img-fluid rounded-circle mb-4 d-inline-block d-lg-none">
+                      <p class="desc text-white">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                      <p class="desc text-white mt-5"><strong>Hyderabad </strong></p>
+                  </div>
+                  <div class="testi-single">
+                      <img src="../images/Untitled5.jpg" alt="Author" class="img-fluid rounded-circle mb-4 d-inline-block d-lg-none">
+                      <p class="desc text-white">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                      <p class="desc text-white mt-5"><strong>Hyderabad </strong></p>
+                  </div>
+                  <div class="testi-single">
+                      <img src="../images/Untitled6.jpg" alt="Author" class="img-fluid rounded-circle mb-4 d-inline-block d-lg-none">
+                      <p class="desc text-white">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                      <p class="desc text-white mt-5"><strong>Hyderabad  </strong></p>
+                  </div>
+                  <div class="testi-single">
+                      <img src="../images/Untitled7.jpg" alt="Author" class="img-fluid rounded-circle mb-4 d-inline-block d-lg-none">
+                      <p class="desc text-white">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged </p>
+                      <p class="desc text-white mt-5"><strong>Hyderabad </strong></p>
+                  </div>
+                  <div class="testi-single">
+                      <img src="../images/Untitled7.jpg" alt="Author" class="img-fluid rounded-circle mb-4 d-inline-block d-lg-none">
+                      <p class="desc text-white">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                      <p class="desc text-white mt-5"><strong>Hyderabad </strong></p>
+                  </div>
+                  <div class="testi-single">
+                      <img src="../images/Untitled8.jpg" alt="Author" class="img-fluid rounded-circle mb-4 d-inline-block d-lg-none">
+                      <p class="desc text-white">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged </p>
+                      <p class="desc text-white mt-5"><strong>Hyderabad </strong></p>
+                  </div>
+                  <div class="testi-single">
+                      <img src="../images/Untitled8.jpg" alt="Author" class="img-fluid rounded-circle mb-4 d-inline-block d-lg-none">
+                      <p class="desc text-white">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                      <p class="desc text-white mt-5"><strong>Hyderabad </strong></p>
+                  </div>
+                  <div class="testi-single">
+                      <img src="../images/Untitled8.jpg" alt="Author" class="img-fluid rounded-circle mb-4 d-inline-block d-lg-none">
+                      <p class="desc text-white">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged </p>
+                      <p class="desc text-white mt-5"><strong>Hyderabad </strong></p>
+                  </div>
+                  <div class="testi-single">
+                      <img src="../images/Untitled9.jpg" alt="Author" class="img-fluid rounded-circle mb-4 d-inline-block d-lg-none">
+                      <p class="desc text-white">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                      <p class="desc text-white mt-5"><strong>Hyderabad  </strong></p>
+                  </div>
+                  <div class="testi-single">
+                      <img src="../images/Untitled10.jpg" alt="Author" class="img-fluid rounded-circle mb-4 d-inline-block d-lg-none">
+                      <p class="desc text-white">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged </p>
+                      <p class="desc text-white mt-5"><strong>Hyderabad </strong></p>
+                  </div>
+              </div>
+              <div class="testi-arrows d-flex align-items-center ps-lg-4 pb-lg-5">
+                  <div class="testi-prev">
+                      <a href="javascript:;" class="more-btn text-white">
+                          <svg class="me-2" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: rotateY(180deg);">
+                              <path d="M12 7L17 12L12 17" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M1 1V8C1 9.06087 1.42143 10.0783 2.17157 10.8284C2.92172 11.5786 3.93913 12 5 12H17" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                          
+                          Previous
+                        
+                      </a>
+                  </div>
+                  <div class="testi-next ms-4">
+                      <a href="javascript:;" class="more-btn text-white">
+                          Next
+                          <svg class="ms-2" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M12 7L17 12L12 17" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M1 1V8C1 9.06087 1.42143 10.0783 2.17157 10.8284C2.92172 11.5786 3.93913 12 5 12H17" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!----------------------------------borrowing---------------------------->
+
+<div class="borrow-text">
+  <h1>Flexible Borrowing Options With Kaveendra</h1>
+<div class="bestcontainer">
+  <div class="bestright">
+    <img src="../images/Screenshot (70).png" class="bestright">
+  </div>
+  <div class="bestleft">
+    <!-- <h1>Flexible Borrowing Options With Kaveendra</h1> -->
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis fuga eaque laudantium inventore praesentium. Dignissimos optio magni eum, facere ea cupiditate suscipit placeat ullam pariatur? Sed nesciunt vero placeat sint! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis fuga eaque laudantium inventore praesentium. Dignissimos optio magni eum, facere ea cupiditate suscipit placeat ullam pariatur? Sed nesciunt vero placeat sint!
+      <br><br>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis fuga eaque laudantium inventore praesentium. Dignissimos optio magni eum, facere ea cupiditate suscipit placeat ullam pariatur? Sed nesciunt vero placeat sint!
+      
+
+     
+  </div>
+   
+  </div>
+</div>
+
+<!-----------------------------end-------------------------->
+<div class="why-kavendra">
+  <h1>WHY SHREE KAVEENDRA CHIT FUNDS PVT.LTD</h1>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus velit alias incidunt, assumenda culpa temporibus, beatae, iste nesciunt cumque sit laudantium magnam? Cum doloremque at odio reiciendis id saepe dolores.Doloribus velit alias incidunt, assumenda culpa temporibus, beatae, iste nesciunt cumque sit laudantium magnam? Cum doloremque at odio reiciendis id saepe dolores.</p>
+  <div class="imgs-part">
+    <div class="wrapper">
+      <a href="#" class="single-portfolio" style="background-image:url(../images/money.jpeg)" data-title="" data-text="HOW IT WORKS"></a>
+    
+      <a href="#" class="single-portfolio" style="background-image:url(../images/how\ fund.jpeg)" data-title="" data-text="HOW IT WORKS"></a>
+    
+      <a href="#" class="single-portfolio" style="background-image:url(../images/money.jpeg)" data-title="" data-text="HOW IT WORKS"></a>
+    
+      <a href="#" class="single-portfolio" style="background-image:url(../images/question.jpeg)" data-title="" data-text="HOW IT WORKS"></a>
+    </div>
+</div>
+</div>
+<!--------------------------------------->
+<script>
+  document.getElementById('image-box').addEventListener('click', function() {
+ var textContainer = document.querySelector('.text');
+ textContainer.classList.toggle('show-text'); 
+ });
+ </script>
+
+
+
+
+<!--------------------------------------->
+<footer>
+  <div class="container-footer">
+      <div class="row">
+            <div class="col" id="company">
+                <img src="../images/logo1.png" alt="" class="logo">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eveniet dolorum impedit, mollitia architecto enim veniam voluptas, voluptatem eos iusto hic aut beatae facere at laboriosam sunt possimus perferendis nobis?
+                </p>
+                <!-- <div class="social">
+                  <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/aadaranahomes/"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div> -->
+            </div>
+
+            <div class="col" id="useful-links">
+              <div class="links">
+                <h2>QUICK LINKS</h2>
+                 <a href="home.html">Home</a>
+                 <a href="about.html">About</a>
+                 <a href="services.html">Services</a>
+                 <a href="plan.html">Our Plans</a>
+                 <a href="benefits.html">Benefits</a>
+                 <a href="contact.html">Contact Us</a>
+              </div>
+           </div>
+
+            <div class="col" id="services">
+               <div class="links">
+                <H2>CONTACT</H2>
+                <p>helpline Number: 1234567890</p>
+                <p>Cell No: 1234567890</p>
+                <p>Email:1234567890</p>
+                <p>Web:1234567890</p>
+               </div>
+               <div class="links">
+                <H2>OPEN HOURS:</H2>
+                <p>Mon-Sat:9am to 5pm</p>
+                <p>sunday: closed</p>
+              </div>
+            </div>
+
+
+           <div class="col" id="contact">
+            <div class="links">
+               <h2>SHREE KAVEENDRA CHIT FUNDS:</h2>
+               <div class="contact-details">
+                  <i class="fa fa-location"></i>
+                  <p>Plot No.74, Krishna Nagar Colony, <br>
+                   Saroor Nagar, Hyderabad- 500074.</p>
+               </div>
+               <div class="contact-details">
+                  <i class="fa fa-phone"></i>
+                  <p>+918008005535</p>
+               </div>
+               <div class="contact-details">
+                 <i class="fa fa-envelope"></i>
+                 <p>contact@aadarana.org</p>
+              </div>
+           </div>
+           </div>
+         </div>
+ </div>
+</footer>
+<div class="footer-part">
+  <h2>Kaveendra 2024 Chit Funds</h2>
+</div>
+
+
+  <!------menu bar script-------->
+
+   <script>
+      let menuList = document.getElementById("menuList")
+      menuList.style.maxHeight = "0px";
+    
+      function toggleMenu(){
+          if(menuList.style.maxHeight == "0px")
+          {
+              menuList.style.maxHeight = "300px";
+          }
+          else{
+              menuList.style.maxHeight = "0px";
+          }
+      }
+      
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+  
+  <!---------------------end toggle menu bar script-->
+
+</body>
+</html>
